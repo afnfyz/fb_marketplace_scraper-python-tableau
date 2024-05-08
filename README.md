@@ -30,25 +30,25 @@ python3 marketplace_scraper.py
 ### Parameters
 **Modify the following parameters in the script to customize your search criteria:**
 
-- min_price: Minimum price filter for listings.
+- **min_price**: Minimum price filter for listings.
 
-- max_price: Maximum price filter for listings.
+- **max_price:** Maximum price filter for listings.
 
-- days_listed: Number of days since the listing was posted.
+- **days_listed**: Number of days since the listing was posted.
 
-- min_mileage: Minimum mileage filter for vehicles.
+- **min_mileage**: Minimum mileage filter for vehicles.
 
-- max_mileage: Maximum mileage filter for vehicles.
+- **max_mileage**: Maximum mileage filter for vehicles.
 
-- min_year: Minimum manufacturing year for vehicles.
+- **min_year**: Minimum manufacturing year for vehicles.
 
-- max_year: Maximum manufacturing year for vehicles.
+- **max_year**: Maximum manufacturing year for vehicles.
 
-- transmission: Transmission type (e.g., "automatic", "manual").
+- **transmission**: Transmission type (e.g., "automatic", "manual").
 
-- make: Vehicle make (e.g., "Honda", "Toyota").
+- **make**: Vehicle make (e.g., "Honda", "Toyota").
 
-- model: Optional vehicle model (leave empty for any model).
+- **model**: Optional vehicle model (leave empty for any model).
 
 ### Notes
 The script scrolls down the webpage to load more listings. 
