@@ -53,7 +53,7 @@ python3 marketplace_scraper.py
 ### Notes
 The script scrolls down the webpage to load more listings. 
 
-Adjust scroll_count and scroll_delay variable in the script for desired behavior.
+Adjust **scroll_count** and **scroll_delay** variable in the script for desired behavior.
 
 Make sure to update Chrome WebDriver and Chrome browser for compatibility.
 
@@ -69,7 +69,7 @@ The script will generate a CSV file (marketplace_listings.csv) containing the fo
 - URL: URL to the listing on Facebook Marketplace.
 
 ### Tableau Dashboard
-Accompanying this script is a Tableau dashboard (marketplace_dashboard.twbx) that visualizes the data extracted from Facebook Marketplace. 
+Accompanying this script is a Tableau dashboard (fb_marketplace_dashboard.twbx) that visualizes the data extracted from Facebook Marketplace. 
 The dashboard includes a map, table and filters to explore the scraped car listings interactively.
 Open the dashboard and connect the data to the dashboard.
 
